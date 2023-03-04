@@ -1,0 +1,15 @@
+﻿<mah:MetroWindow
+    x:Class="MyTodoApp.WPF.Views.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:behaviors="http://schemas.microsoft.com/xaml/behaviors"
+    xmlns:l="http://schemas.livet-mvvm.net/2011/wpf"
+    xmlns:v="clr-namespace:MyTodoApp.WPF.Views"
+    xmlns:vm="clr-namespace:MyTodoApp.WPF.ViewModels"
+    xmlns:mah="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+    Title="TodoApp"
+    Width="525"
+    Height="350">
+
+
+</mah:MetroWindow>

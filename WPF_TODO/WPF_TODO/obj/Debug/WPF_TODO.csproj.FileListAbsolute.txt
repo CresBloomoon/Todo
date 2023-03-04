@@ -1,0 +1,17 @@
+C:\Users\bloomoon\source\repos\Todo\WPF_TODO\WPF_TODO\obj\Debug\WPF_TODO.csproj.AssemblyReference.cache
+C:\Users\bloomoon\source\repos\Todo\WPF_TODO\WPF_TODO\obj\Debug\WPF_TODO.csproj.SuggestedBindingRedirects.cache
+C:\Users\bloomoon\source\repos\Todo\WPF_TODO\WPF_TODO\obj\Debug\MainWindow.g.cs
+C:\Users\bloomoon\source\repos\Todo\WPF_TODO\WPF_TODO\obj\Debug\App.g.cs
+C:\Users\bloomoon\source\repos\Todo\WPF_TODO\WPF_TODO\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\bloomoon\source\repos\Todo\WPF_TODO\WPF_TODO\obj\Debug\WPF_TODO_MarkupCompile.cache
+C:\Users\bloomoon\source\repos\Todo\WPF_TODO\WPF_TODO\obj\Debug\WPF_TODO_MarkupCompile.lref
+C:\Users\bloomoon\source\repos\Todo\WPF_TODO\WPF_TODO\bin\Debug\WPF_TODO.exe.config
+C:\Users\bloomoon\source\repos\Todo\WPF_TODO\WPF_TODO\bin\Debug\WPF_TODO.exe
+C:\Users\bloomoon\source\repos\Todo\WPF_TODO\WPF_TODO\bin\Debug\WPF_TODO.pdb
+C:\Users\bloomoon\source\repos\Todo\WPF_TODO\WPF_TODO\obj\Debug\MainWindow.baml
+C:\Users\bloomoon\source\repos\Todo\WPF_TODO\WPF_TODO\obj\Debug\WPF_TODO.g.resources
+C:\Users\bloomoon\source\repos\Todo\WPF_TODO\WPF_TODO\obj\Debug\WPF_TODO.Properties.Resources.resources
+C:\Users\bloomoon\source\repos\Todo\WPF_TODO\WPF_TODO\obj\Debug\WPF_TODO.csproj.GenerateResource.cache
+C:\Users\bloomoon\source\repos\Todo\WPF_TODO\WPF_TODO\obj\Debug\WPF_TODO.csproj.CoreCompileInputs.cache
+C:\Users\bloomoon\source\repos\Todo\WPF_TODO\WPF_TODO\obj\Debug\WPF_TODO.exe
+C:\Users\bloomoon\source\repos\Todo\WPF_TODO\WPF_TODO\obj\Debug\WPF_TODO.pdb

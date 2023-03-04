@@ -1,0 +1,8 @@
+POST https://localhost:7102/api/todoitems HTTP/1.1
+content-type: application/json
+
+{
+    "id": 2,
+    "name": "プログラミング2",
+    "isComplete": false
+}

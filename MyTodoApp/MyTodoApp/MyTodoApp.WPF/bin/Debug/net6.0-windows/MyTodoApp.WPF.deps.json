@@ -1,0 +1,548 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "MyTodoApp.WPF/1.0.0": {
+        "dependencies": {
+          "LivetCask": "4.0.2",
+          "LivetExtensions": "4.0.2",
+          "MahApps.Metro": "2.4.9",
+          "MaterialDesignColors": "2.0.4",
+          "MaterialDesignThemes": "4.3.0",
+          "MaterialDesignThemes.MahApps": "0.2.0",
+          "MessagePipe": "1.7.1",
+          "MessagePipe.Analyzer": "1.7.1",
+          "Microsoft.Extensions.DependencyInjection": "6.0.0",
+          "Microsoft.Toolkit.Uwp.Notifications": "7.1.2",
+          "Microsoft.Xaml.Behaviors.Wpf": "1.1.39",
+          "NLog": "4.7.14",
+          "ReactiveProperty": "8.0.3",
+          "System.Management": "6.0.0"
+        },
+        "runtime": {
+          "MyTodoApp.WPF.dll": {}
+        }
+      },
+      "ControlzEx/4.4.0": {
+        "dependencies": {
+          "Microsoft.Xaml.Behaviors.Wpf": "1.1.39",
+          "System.Text.Json": "4.7.2"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/ControlzEx.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.4.0.50"
+          }
+        }
+      },
+      "InternalReservedAttributeGenerator/0.1.2": {},
+      "LivetCask/4.0.2": {
+        "dependencies": {
+          "LivetCask.Behaviors": "4.0.2",
+          "LivetCask.Collections": "4.0.2",
+          "LivetCask.Converters": "4.0.2",
+          "LivetCask.EventListeners": "4.0.2",
+          "LivetCask.Messaging": "4.0.2",
+          "LivetCask.Mvvm": "4.0.2"
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/Livet.dll": {
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.0.2.0"
+          }
+        }
+      },
+      "LivetCask.Behaviors/4.0.2": {
+        "dependencies": {
+          "LivetCask.Core": "4.0.2",
+          "Microsoft.Xaml.Behaviors.Wpf": "1.1.39"
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/Livet.Behaviors.dll": {
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.0.2.0"
+          }
+        }
+      },
+      "LivetCask.Collections/4.0.2": {
+        "dependencies": {
+          "LivetCask.EventListeners": "4.0.2"
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/Livet.Collections.dll": {
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.0.2.0"
+          }
+        }
+      },
+      "LivetCask.Converters/4.0.2": {
+        "dependencies": {
+          "Microsoft.Xaml.Behaviors.Wpf": "1.1.39"
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/Livet.Converters.dll": {
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.0.2.0"
+          }
+        }
+      },
+      "LivetCask.Core/4.0.2": {
+        "runtime": {
+          "lib/net6.0/Livet.Core.dll": {
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.0.2.0"
+          }
+        }
+      },
+      "LivetCask.EventListeners/4.0.2": {
+        "dependencies": {
+          "LivetCask.Core": "4.0.2"
+        },
+        "runtime": {
+          "lib/net6.0/Livet.EventListeners.dll": {
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.0.2.0"
+          }
+        }
+      },
+      "LivetCask.Messaging/4.0.2": {
+        "dependencies": {
+          "LivetCask.Core": "4.0.2",
+          "LivetCask.EventListeners": "4.0.2",
+          "Microsoft.Xaml.Behaviors.Wpf": "1.1.39"
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/Livet.Messaging.dll": {
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.0.2.0"
+          }
+        }
+      },
+      "LivetCask.Mvvm/4.0.2": {
+        "dependencies": {
+          "LivetCask.Messaging": "4.0.2"
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/Livet.Mvvm.dll": {
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.0.2.0"
+          }
+        }
+      },
+      "LivetExtensions/4.0.2": {
+        "dependencies": {
+          "InternalReservedAttributeGenerator": "0.1.2",
+          "LivetCask": "4.0.2",
+          "Microsoft.Xaml.Behaviors.Wpf": "1.1.39"
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/Livet.Extensions.dll": {
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.0.2.0"
+          },
+          "lib/net6.0-windows7/Microsoft.WindowsAPICodePack.Shell.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.0.0"
+          },
+          "lib/net6.0-windows7/Microsoft.WindowsAPICodePack.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.0.0"
+          }
+        },
+        "resources": {
+          "lib/net6.0-windows7.0/ja/Livet.Extensions.resources.dll": {
+            "locale": "ja"
+          }
+        }
+      },
+      "MahApps.Metro/2.4.9": {
+        "dependencies": {
+          "ControlzEx": "4.4.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/MahApps.Metro.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.4.9.2"
+          }
+        },
+        "resources": {
+          "lib/netcoreapp3.1/de/MahApps.Metro.resources.dll": {
+            "locale": "de"
+          }
+        }
+      },
+      "MaterialDesignColors/2.0.4": {
+        "runtime": {
+          "lib/netcoreapp3.1/MaterialDesignColors.dll": {
+            "assemblyVersion": "2.0.4.3",
+            "fileVersion": "2.0.4.3"
+          }
+        }
+      },
+      "MaterialDesignThemes/4.3.0": {
+        "dependencies": {
+          "MaterialDesignColors": "2.0.4"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/MaterialDesignThemes.Wpf.dll": {
+            "assemblyVersion": "4.3.0.3",
+            "fileVersion": "4.3.0.3"
+          }
+        }
+      },
+      "MaterialDesignThemes.MahApps/0.2.0": {
+        "dependencies": {
+          "MahApps.Metro": "2.4.9",
+          "MaterialDesignColors": "2.0.4",
+          "MaterialDesignThemes": "4.3.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/MaterialDesignThemes.MahApps.dll": {
+            "assemblyVersion": "0.2.0.3",
+            "fileVersion": "0.2.0.3"
+          }
+        }
+      },
+      "MessagePipe/1.7.1": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
+        },
+        "runtime": {
+          "lib/net5.0/MessagePipe.dll": {
+            "assemblyVersion": "1.7.1.0",
+            "fileVersion": "1.7.1.0"
+          }
+        }
+      },
+      "MessagePipe.Analyzer/1.7.1": {},
+      "Microsoft.Extensions.DependencyInjection/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
+      "Microsoft.Toolkit.Uwp.Notifications/7.1.2": {
+        "dependencies": {
+          "System.ValueTuple": "4.5.0"
+        },
+        "runtime": {
+          "lib/net5.0/Microsoft.Toolkit.Uwp.Notifications.dll": {
+            "assemblyVersion": "7.1.0.0",
+            "fileVersion": "7.1.2.1"
+          }
+        }
+      },
+      "Microsoft.Xaml.Behaviors.Wpf/1.1.39": {
+        "runtime": {
+          "lib/net5.0-windows7.0/Microsoft.Xaml.Behaviors.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.39.4716"
+          }
+        }
+      },
+      "NLog/4.7.14": {
+        "runtime": {
+          "lib/netstandard2.0/NLog.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.7.14.740"
+          }
+        }
+      },
+      "ReactiveProperty/8.0.3": {
+        "dependencies": {
+          "ReactiveProperty.Core": "8.0.3",
+          "System.ComponentModel.Annotations": "5.0.0",
+          "System.Reactive": "5.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/ReactiveProperty.dll": {
+            "assemblyVersion": "8.0.3.0",
+            "fileVersion": "8.0.3.0"
+          }
+        }
+      },
+      "ReactiveProperty.Core/8.0.3": {
+        "runtime": {
+          "lib/net6.0/ReactiveProperty.Core.dll": {
+            "assemblyVersion": "8.0.3.0",
+            "fileVersion": "8.0.3.0"
+          }
+        }
+      },
+      "System.CodeDom/6.0.0": {},
+      "System.ComponentModel.Annotations/5.0.0": {},
+      "System.Management/6.0.0": {
+        "dependencies": {
+          "System.CodeDom": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/System.Management.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net6.0/System.Management.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
+      "System.Reactive/5.0.0": {
+        "runtime": {
+          "lib/net5.0/System.Reactive.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.0.1"
+          }
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/6.0.0": {},
+      "System.Text.Json/4.7.2": {},
+      "System.ValueTuple/4.5.0": {}
+    }
+  },
+  "libraries": {
+    "MyTodoApp.WPF/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ControlzEx/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pZ5z4hYWwE4R13UMCVs6vII//nL7hz+Nwn4oJlnsZJRGqJNy6Z9KnJiTZfly6lKFu0pMc1aWBZpx+VqFTQKP1Q==",
+      "path": "controlzex/4.4.0",
+      "hashPath": "controlzex.4.4.0.nupkg.sha512"
+    },
+    "InternalReservedAttributeGenerator/0.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Y6ippCMbaYTWjW+hj9XMeSVxGwForOqQpDfY4Q57m3BF5iLjxDx1YiSLRPAVmMey09YsHHFZhXqanbw9zlGJQg==",
+      "path": "internalreservedattributegenerator/0.1.2",
+      "hashPath": "internalreservedattributegenerator.0.1.2.nupkg.sha512"
+    },
+    "LivetCask/4.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0Vgpw9Gv0mS8vEzmbDV0cFrPAObjknz7MxbXlmS9x7JENokm43kE5lzLLsHC1zraDnfKxuVJlqjfJk+OI2R6Rg==",
+      "path": "livetcask/4.0.2",
+      "hashPath": "livetcask.4.0.2.nupkg.sha512"
+    },
+    "LivetCask.Behaviors/4.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6KNqWF5hdIVKF+UU2LAjja5PIigQSISO+g7Ixv37GjM16bIQF8Sa9PurYaeFQOhng2LUi7RQlGVYpCTfEc+dXg==",
+      "path": "livetcask.behaviors/4.0.2",
+      "hashPath": "livetcask.behaviors.4.0.2.nupkg.sha512"
+    },
+    "LivetCask.Collections/4.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-svZwO3diHrYwlC+cyjTI7Y6FTKdgkQc8qemLpdkPmlTwqMCjXaXzOUCG4OZk+vCBh0qpM7SuLKITNK4/0XKdug==",
+      "path": "livetcask.collections/4.0.2",
+      "hashPath": "livetcask.collections.4.0.2.nupkg.sha512"
+    },
+    "LivetCask.Converters/4.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6lW9dacE9wvWmf6Dhv7ynbFXcH4hhf3tJKXo6Uei3wh6w3TF2gJGMa9XFkxc/rHH6NCb7Y9igpgq0jMy9r9jjQ==",
+      "path": "livetcask.converters/4.0.2",
+      "hashPath": "livetcask.converters.4.0.2.nupkg.sha512"
+    },
+    "LivetCask.Core/4.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/Cp5areP4R0rSxBQNCIUhrvRrT9aOFl90oW/j/t+tiXvByhjLkweVzfmrjNKQD0jRJCaxipZkK+3twVFCtKXwg==",
+      "path": "livetcask.core/4.0.2",
+      "hashPath": "livetcask.core.4.0.2.nupkg.sha512"
+    },
+    "LivetCask.EventListeners/4.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bRcfcgP6Ncc2In2Jla+V5YKZ+M6fRyJwx7aMKO9MShD1r9ZsYz7UY3x7XrQoRav8Q7zIENupJJo0r7xxdEYBOQ==",
+      "path": "livetcask.eventlisteners/4.0.2",
+      "hashPath": "livetcask.eventlisteners.4.0.2.nupkg.sha512"
+    },
+    "LivetCask.Messaging/4.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zyFeUvDjALJQegYqg0MV9t969uzcp3hhtsNitRttfWPdpPUZBF0GSgMG/uy+bT1olmBOjCB6/2+MwG+5pB0IYA==",
+      "path": "livetcask.messaging/4.0.2",
+      "hashPath": "livetcask.messaging.4.0.2.nupkg.sha512"
+    },
+    "LivetCask.Mvvm/4.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lrqCgHGRC6YHmhivfF+g23c8Q4j2mgCgBkfNuhJ45SqlEdgjIzeUfMLC9BwHsdRnN6Iso6ezAWgL02OsQcZrWQ==",
+      "path": "livetcask.mvvm/4.0.2",
+      "hashPath": "livetcask.mvvm.4.0.2.nupkg.sha512"
+    },
+    "LivetExtensions/4.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-PnCbgsrRMO3+J1AmhL+2cElicP+yqri6ZdREi05QBUjf77rDxU6UR64hjU7klkVVAKRQVZGz8QHQeBajixUm1Q==",
+      "path": "livetextensions/4.0.2",
+      "hashPath": "livetextensions.4.0.2.nupkg.sha512"
+    },
+    "MahApps.Metro/2.4.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eMTkg6TBnCwHzszw7CP+pxsBeB4ZMsJFiTJJoifUVBysRyEenzzR+TKQJuMvvKK6KzvLxwHmJsFhi9o5p4vxhQ==",
+      "path": "mahapps.metro/2.4.9",
+      "hashPath": "mahapps.metro.2.4.9.nupkg.sha512"
+    },
+    "MaterialDesignColors/2.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-l8LfghYjT2mBVp28CAU8UN4GQ6T/euzgGiTwFKy1DPUG8c5rng/CVXXqM5Xof0XAm0MhXgV8yjGRjQ7KOjT/Iw==",
+      "path": "materialdesigncolors/2.0.4",
+      "hashPath": "materialdesigncolors.2.0.4.nupkg.sha512"
+    },
+    "MaterialDesignThemes/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-edXh0Hl2LukyEZN+REVFuN+gaaUFo6AfHSaBjuZ95k4Qz1TljcxnfCznMKkGaQoEsy5ryk85ZbeRY/tOzFmKxg==",
+      "path": "materialdesignthemes/4.3.0",
+      "hashPath": "materialdesignthemes.4.3.0.nupkg.sha512"
+    },
+    "MaterialDesignThemes.MahApps/0.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Aeb7qZVIglz8dgrQpFZQGqmuJxDzjuR1Qd/dQFTrv1DgQG2PXbfz1bb1F78mArENKhjJ8fRGsxgI+60gufqF9g==",
+      "path": "materialdesignthemes.mahapps/0.2.0",
+      "hashPath": "materialdesignthemes.mahapps.0.2.0.nupkg.sha512"
+    },
+    "MessagePipe/1.7.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-C9O619arMmzX7xsPQjdp3HGW+P9oFlSfRd55CHsTgJCT83ct4Kpt8Uyzsah7zekJxVH3Nlumaip3FhqabUP0vA==",
+      "path": "messagepipe/1.7.1",
+      "hashPath": "messagepipe.1.7.1.nupkg.sha512"
+    },
+    "MessagePipe.Analyzer/1.7.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MHXiJqTUT5UE4rIanvJIR3pVpu8HMI89OQgxdI9vIm1lUbwGY+PTsCqZr8xBDaZtR0x+j+GS0huoibcCO3ddAg==",
+      "path": "messagepipe.analyzer/1.7.1",
+      "hashPath": "messagepipe.analyzer.1.7.1.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-k6PWQMuoBDGGHOQTtyois2u4AwyVcIwL2LaSLlTZQm2CYcJ1pxbt6jfAnpWmzENA/wfrYRI/X9DTLoUkE4AsLw==",
+      "path": "microsoft.extensions.dependencyinjection/6.0.0",
+      "hashPath": "microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xlzi2IYREJH3/m6+lUrQlujzX8wDitm4QGnUu6kUXTQAWPuZY8i+ticFJbzfqaetLA6KR/rO6Ew/HuYD+bxifg==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/6.0.0",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Toolkit.Uwp.Notifications/7.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cVBRDG8g0K4sBRHFJoNQjwZduDUz+cXP33erIQjAa8fGKF4DsWIuOAQCYGFoXpdXIXjxoaUYuGSxAG6QCvOdtQ==",
+      "path": "microsoft.toolkit.uwp.notifications/7.1.2",
+      "hashPath": "microsoft.toolkit.uwp.notifications.7.1.2.nupkg.sha512"
+    },
+    "Microsoft.Xaml.Behaviors.Wpf/1.1.39": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8PZKqw9QOcu42xk8puY4P1+EXHL9YGOR9b7qhaYx5cILHul456H073tj99vyPcCt0W0781T9RwHqkx507ZyUpQ==",
+      "path": "microsoft.xaml.behaviors.wpf/1.1.39",
+      "hashPath": "microsoft.xaml.behaviors.wpf.1.1.39.nupkg.sha512"
+    },
+    "NLog/4.7.14": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-R1Nn+Zi2mSiKf82zII+8ZhGTr66CmCDLlpDq/0N0Y22TDrioYeP6t3XWzJVTi3OXaHJ/jiXId/okXQu8e0g3uw==",
+      "path": "nlog/4.7.14",
+      "hashPath": "nlog.4.7.14.nupkg.sha512"
+    },
+    "ReactiveProperty/8.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+1cDRNtO9p9K7OBzcJezZauzpdwQ/yStggDjUdDD9XfIC7/6D8iRTX5Qz12/PrG/r8xNLmwvQBATuObDkPySsA==",
+      "path": "reactiveproperty/8.0.3",
+      "hashPath": "reactiveproperty.8.0.3.nupkg.sha512"
+    },
+    "ReactiveProperty.Core/8.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-f+KnptDVfhaAgWgwvx6ywnsht/JDH5TQfXFfd6ugCQHnR0OEWjjEgwp9EzqUmrkHFvu01fbKRDeJ85xdDgVs4w==",
+      "path": "reactiveproperty.core/8.0.3",
+      "hashPath": "reactiveproperty.core.8.0.3.nupkg.sha512"
+    },
+    "System.CodeDom/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CPc6tWO1LAer3IzfZufDBRL+UZQcj5uS207NHALQzP84Vp/z6wF0Aa0YZImOQY8iStY0A2zI/e3ihKNPfUm8XA==",
+      "path": "system.codedom/6.0.0",
+      "hashPath": "system.codedom.6.0.0.nupkg.sha512"
+    },
+    "System.ComponentModel.Annotations/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dMkqfy2el8A8/I76n2Hi1oBFEbG1SfxD2l5nhwXV3XjlnOmwxJlQbYpJH4W51odnU9sARCSAgv7S3CyAFMkpYg==",
+      "path": "system.componentmodel.annotations/5.0.0",
+      "hashPath": "system.componentmodel.annotations.5.0.0.nupkg.sha512"
+    },
+    "System.Management/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sHsESYMmPDhQuOC66h6AEOs/XowzKsbT9srMbX71TCXP58hkpn1BqBjdmKj1+DCA/WlBETX1K5WjQHwmV0Txrg==",
+      "path": "system.management/6.0.0",
+      "hashPath": "system.management.6.0.0.nupkg.sha512"
+    },
+    "System.Reactive/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-erBZjkQHWL9jpasCE/0qKAryzVBJFxGHVBAvgRN1bzM0q2s1S4oYREEEL0Vb+1kA/6BKb5FjUZMp5VXmy+gzkQ==",
+      "path": "system.reactive/5.0.0",
+      "hashPath": "system.reactive.5.0.0.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/iUeP3tq1S0XdNNoMz5C9twLSrM/TH+qElHkXWaPvuNOt+99G75NrV0OS2EqHx5wMN7popYjpc8oTjC1y16DLg==",
+      "path": "system.runtime.compilerservices.unsafe/6.0.0",
+      "hashPath": "system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    },
+    "System.Text.Json/4.7.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TcMd95wcrubm9nHvJEQs70rC0H/8omiSGGpU4FQ/ZA1URIqD4pjmFJh2Mfv1yH1eHgJDWTi2hMDXwTET+zOOyg==",
+      "path": "system.text.json/4.7.2",
+      "hashPath": "system.text.json.4.7.2.nupkg.sha512"
+    },
+    "System.ValueTuple/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-okurQJO6NRE/apDIP23ajJ0hpiNmJ+f0BwOlB/cSqTLQlw5upkf+5+96+iG2Jw40G1fCVCyPz/FhIABUjMR+RQ==",
+      "path": "system.valuetuple/4.5.0",
+      "hashPath": "system.valuetuple.4.5.0.nupkg.sha512"
+    }
+  }
+}
