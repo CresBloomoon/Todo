@@ -1,4 +1,5 @@
 ﻿using Livet;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -9,11 +10,13 @@ namespace MyTodoApp2.Models
 {
     public class TodoModel : INotifyPropertyChanged /*NotificationObject*/
     {
+        [JsonProperty(PropertyName = "creationDate")]
         public DateTime CreationDate { get; set; } = DateTime.Now;
 
         private bool _isDone;
         private string _text;
 
+        [JsonProperty(PropertyName = "isDone")]
         public bool IsDone
         {
             get { return _isDone; }

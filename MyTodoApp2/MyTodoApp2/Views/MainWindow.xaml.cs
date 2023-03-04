@@ -1,8 +1,10 @@
 ﻿using MyTodoApp2.Models;
+using MyTodoApp2.Services;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Windows;
 using System.Windows.Controls;
@@ -25,7 +27,9 @@ namespace MyTodoApp2.Views
      */
     public partial class MainWindow : Window
     {
+        private readonly string PATH = $"{Environment.CurrentDirectory}\\todoDataList.json";
         private BindingList<TodoModel> _todoDataList;
+        private FileIOService _fileIOService;
 
         public MainWindow()
         {
@@ -34,12 +38,18 @@ namespace MyTodoApp2.Views
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
-            _todoDataList = new BindingList<TodoModel>()
+            _fileIOService = new FileIOService(PATH);
+
+            try
             {
-                new TodoModel(){Text = "test"},
-                new TodoModel(){Text = "test2" },
-                new TodoModel(){Text = "test3", IsDone=true}
-            };
+                _todoDataList = _fileIOService.LoadData();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+                this.Close();
+            }
+            
 
             dgTodoList.ItemsSource = _todoDataList;
             _todoDataList.ListChanged += _tododataList_ListChanged;
@@ -51,7 +61,15 @@ namespace MyTodoApp2.Views
                 e.ListChangedType == ListChangedType.ItemDeleted ||
                 e.ListChangedType == ListChangedType.ItemChanged)
             {
-
+                try
+                {
+                    _fileIOService.SaveData(sender);
+                }
+                catch(Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                    this.Close();
+                }
             }
         }
     }

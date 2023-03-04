@@ -11,11 +11,11 @@ using System.Threading.Tasks;
 
 namespace MyTodoApp2.Services
 {
-    internal sealed class FileOService
+    internal sealed class FileIOService
     {
         private readonly string PATH;
 
-        public FileOService(string path)
+        public FileIOService(string path)
         {
             PATH = path;
         }
@@ -35,11 +35,11 @@ namespace MyTodoApp2.Services
             }
         }
 
-        public void SaveData(BindingList<TodoModel> _todoDataList)
+        public void SaveData(object todoDataList)
         {
             using (StreamWriter writer = File.CreateText(PATH))
             {
-                string output = JsonConvert.SerializeObject(_todoDataList);
+                string output = JsonConvert.SerializeObject(todoDataList);
                 writer.Write(output);
             }
         }

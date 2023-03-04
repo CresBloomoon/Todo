@@ -14,7 +14,6 @@ C:\Users\bloomoon\source\repos\Todo\MyTodoApp2\MyTodoApp2\obj\Debug\net48\MyTodo
 C:\Users\bloomoon\source\repos\Todo\MyTodoApp2\MyTodoApp2\obj\Debug\net48\MyTodoApp2.csproj.SuggestedBindingRedirects.cache
 C:\Users\bloomoon\source\repos\Todo\MyTodoApp2\MyTodoApp2\obj\Debug\net48\Views\MainWindow.g.cs
 C:\Users\bloomoon\source\repos\Todo\MyTodoApp2\MyTodoApp2\obj\Debug\net48\App.g.cs
-C:\Users\bloomoon\source\repos\Todo\MyTodoApp2\MyTodoApp2\obj\Debug\net48\GeneratedInternalTypeHelper.g.cs
 C:\Users\bloomoon\source\repos\Todo\MyTodoApp2\MyTodoApp2\obj\Debug\net48\MyTodoApp2_MarkupCompile.cache
 C:\Users\bloomoon\source\repos\Todo\MyTodoApp2\MyTodoApp2\obj\Debug\net48\MyTodoApp2_MarkupCompile.lref
 C:\Users\bloomoon\source\repos\Todo\MyTodoApp2\MyTodoApp2\obj\Debug\net48\Views\MainWindow.baml
@@ -26,3 +25,4 @@ C:\Users\bloomoon\source\repos\Todo\MyTodoApp2\MyTodoApp2\obj\Debug\net48\MyTodo
 C:\Users\bloomoon\source\repos\Todo\MyTodoApp2\MyTodoApp2\obj\Debug\net48\MyTodoApp2.csproj.CopyComplete
 C:\Users\bloomoon\source\repos\Todo\MyTodoApp2\MyTodoApp2\obj\Debug\net48\MyTodoApp2.exe
 C:\Users\bloomoon\source\repos\Todo\MyTodoApp2\MyTodoApp2\obj\Debug\net48\MyTodoApp2.pdb
+C:\Users\bloomoon\source\repos\Todo\MyTodoApp2\MyTodoApp2\bin\Debug\net48\Newtonsoft.Json.dll
