@@ -12,6 +12,21 @@
 
     <Grid>
         <DataGrid x:Name="dgTodoList" Margin="8" FontSize="16" FontWeight="Bold" AutoGenerateColumns="False">
+            <DataGrid.CellStyle>
+                <Style TargetType="DataGridCell">
+                    <Setter Property="BorderThickness" Value="0"/>
+                    <Setter Property="FocusVisualStyle" Value="{x:Null}"/>
+                    <Style.Triggers>
+                        <Trigger Property="IsSelected" Value="True">
+                            <Setter Property="Background" Value="AliceBlue"/>
+                            <Setter Property="Foreground" Value="Black"/>
+                        </Trigger>
+                        <Trigger Property="IsFocused" Value="False"/>
+                        <Trigger Property="IsEditing" Value="False"/>
+                    </Style.Triggers>
+                </Style>
+            </DataGrid.CellStyle>
+
             <DataGrid.Columns>
                 <DataGridTextColumn Binding="{Binding Path=CreationDate}" Header="CreationDate" Width="180" IsReadOnly="True"/>
                 <DataGridCheckBoxColumn Binding="{Binding Path=IsDone, UpdateSourceTrigger=PropertyChanged}" Header="Done" Width="80" IsReadOnly="False"/>

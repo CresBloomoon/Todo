@@ -2,6 +2,26 @@
   "version": 3,
   "targets": {
     ".NETFramework,Version=v4.8": {
+      "ControlzEx/4.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Xaml.Behaviors.Wpf": "1.1.19"
+        },
+        "frameworkAssemblies": [
+          "System.Web",
+          "System.Web.Extensions"
+        ],
+        "compile": {
+          "lib/net462/ControlzEx.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net462/ControlzEx.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "LivetCask/4.0.1": {
         "type": "package",
         "dependencies": {
@@ -139,7 +159,78 @@
           "lib/net452/Livet.Mvvm.dll": {}
         }
       },
-      "Microsoft.Xaml.Behaviors.Wpf/1.1.31": {
+      "MahApps.Metro/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "ControlzEx": "4.3.0"
+        },
+        "frameworkAssemblies": [
+          "System.ComponentModel.DataAnnotations",
+          "System.Configuration"
+        ],
+        "compile": {
+          "lib/net47/MahApps.Metro.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net47/MahApps.Metro.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "MaterialDesignColors/2.1.2": {
+        "type": "package",
+        "compile": {
+          "lib/net462/MaterialDesignColors.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net462/MaterialDesignColors.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "MaterialDesignThemes/4.8.0": {
+        "type": "package",
+        "dependencies": {
+          "MaterialDesignColors": "2.1.2",
+          "Microsoft.Xaml.Behaviors.Wpf": "1.1.39"
+        },
+        "compile": {
+          "lib/net462/MaterialDesignThemes.Wpf.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net462/MaterialDesignThemes.Wpf.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "build/MaterialDesignThemes.targets": {}
+        }
+      },
+      "MaterialDesignThemes.MahApps/0.2.8": {
+        "type": "package",
+        "dependencies": {
+          "MahApps.Metro": "2.0.0",
+          "MaterialDesignColors": "2.1.2",
+          "MaterialDesignThemes": "4.8.0"
+        },
+        "compile": {
+          "lib/net462/MaterialDesignThemes.MahApps.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net462/MaterialDesignThemes.MahApps.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "Microsoft.Xaml.Behaviors.Wpf/1.1.39": {
         "type": "package",
         "frameworkAssemblies": [
           "PresentationCore",
@@ -176,6 +267,26 @@
       }
     },
     ".NETFramework,Version=v4.8/win7-x86": {
+      "ControlzEx/4.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Xaml.Behaviors.Wpf": "1.1.19"
+        },
+        "frameworkAssemblies": [
+          "System.Web",
+          "System.Web.Extensions"
+        ],
+        "compile": {
+          "lib/net462/ControlzEx.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net462/ControlzEx.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "LivetCask/4.0.1": {
         "type": "package",
         "dependencies": {
@@ -313,7 +424,78 @@
           "lib/net452/Livet.Mvvm.dll": {}
         }
       },
-      "Microsoft.Xaml.Behaviors.Wpf/1.1.31": {
+      "MahApps.Metro/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "ControlzEx": "4.3.0"
+        },
+        "frameworkAssemblies": [
+          "System.ComponentModel.DataAnnotations",
+          "System.Configuration"
+        ],
+        "compile": {
+          "lib/net47/MahApps.Metro.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net47/MahApps.Metro.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "MaterialDesignColors/2.1.2": {
+        "type": "package",
+        "compile": {
+          "lib/net462/MaterialDesignColors.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net462/MaterialDesignColors.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "MaterialDesignThemes/4.8.0": {
+        "type": "package",
+        "dependencies": {
+          "MaterialDesignColors": "2.1.2",
+          "Microsoft.Xaml.Behaviors.Wpf": "1.1.39"
+        },
+        "compile": {
+          "lib/net462/MaterialDesignThemes.Wpf.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net462/MaterialDesignThemes.Wpf.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "build/MaterialDesignThemes.targets": {}
+        }
+      },
+      "MaterialDesignThemes.MahApps/0.2.8": {
+        "type": "package",
+        "dependencies": {
+          "MahApps.Metro": "2.0.0",
+          "MaterialDesignColors": "2.1.2",
+          "MaterialDesignThemes": "4.8.0"
+        },
+        "compile": {
+          "lib/net462/MaterialDesignThemes.MahApps.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net462/MaterialDesignThemes.MahApps.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "Microsoft.Xaml.Behaviors.Wpf/1.1.39": {
         "type": "package",
         "frameworkAssemblies": [
           "PresentationCore",
@@ -351,6 +533,30 @@
     }
   },
   "libraries": {
+    "ControlzEx/4.3.0": {
+      "sha512": "I7PKmQNIMO9+s4s50WXOApotnyEKL9G8vvYrZY7CLe7nufXwRSv+vWPrd4BYwZDQiWHbBwnXsC8zUPgPnEWr6g==",
+      "type": "package",
+      "path": "controlzex/4.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "controlzex.4.3.0.nupkg.sha512",
+        "controlzex.nuspec",
+        "lib/net45/ControlzEx.dll",
+        "lib/net45/ControlzEx.pdb",
+        "lib/net45/ControlzEx.xml",
+        "lib/net462/ControlzEx.dll",
+        "lib/net462/ControlzEx.pdb",
+        "lib/net462/ControlzEx.xml",
+        "lib/netcoreapp3.0/ControlzEx.dll",
+        "lib/netcoreapp3.0/ControlzEx.pdb",
+        "lib/netcoreapp3.0/ControlzEx.xml",
+        "lib/netcoreapp3.1/ControlzEx.dll",
+        "lib/netcoreapp3.1/ControlzEx.pdb",
+        "lib/netcoreapp3.1/ControlzEx.xml",
+        "logo-mini.png"
+      ]
+    },
     "LivetCask/4.0.1": {
       "sha512": "Jf2b5r23fAR7eM7xBQqSVsuzJtLwGWiw6E9JBhn1NrmppGIQdnOs6rMPQSuvveVafbr0LxK9zsvg1S8Vt6jCfw==",
       "type": "package",
@@ -471,10 +677,122 @@
         "livetcask.mvvm.nuspec"
       ]
     },
-    "Microsoft.Xaml.Behaviors.Wpf/1.1.31": {
-      "sha512": "LZpuf82ACZWldmfMuv3CTUMDh3o0xo0uHUaybR5HgqVLDBJJ9RZLykplQ/bTJd0/VDt3EhD4iDgUgbdIUAM+Kg==",
+    "MahApps.Metro/2.0.0": {
+      "sha512": "btjlE3Q8iebJB+4TBJZLcJBQZshKYqfkcATj9AS8veq4a506uE71NOTE1OSoavOJ70xasBjcdc+VuN17l+kIqw==",
       "type": "package",
-      "path": "microsoft.xaml.behaviors.wpf/1.1.31",
+      "path": "mahapps.metro/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net452/MahApps.Metro.dll",
+        "lib/net452/MahApps.Metro.pdb",
+        "lib/net452/MahApps.Metro.xml",
+        "lib/net46/MahApps.Metro.dll",
+        "lib/net46/MahApps.Metro.pdb",
+        "lib/net46/MahApps.Metro.xml",
+        "lib/net47/MahApps.Metro.dll",
+        "lib/net47/MahApps.Metro.pdb",
+        "lib/net47/MahApps.Metro.xml",
+        "lib/netcoreapp3.0/MahApps.Metro.dll",
+        "lib/netcoreapp3.0/MahApps.Metro.pdb",
+        "lib/netcoreapp3.0/MahApps.Metro.xml",
+        "lib/netcoreapp3.1/MahApps.Metro.dll",
+        "lib/netcoreapp3.1/MahApps.Metro.pdb",
+        "lib/netcoreapp3.1/MahApps.Metro.xml",
+        "mahapps.metro.2.0.0.nupkg.sha512",
+        "mahapps.metro.logo.png",
+        "mahapps.metro.nuspec"
+      ]
+    },
+    "MaterialDesignColors/2.1.2": {
+      "sha512": "7hf7MLRB6JXHj+IOLh3z2L9yBr58QhgpWQXyvffAoWdSamVO+DMEp3DqdWds0R5Rf6dp9yQ9hYUZ+wSsVZG1nQ==",
+      "type": "package",
+      "path": "materialdesigncolors/2.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "images/MaterialDesignColors.Icon.png",
+        "lib/net462/MaterialDesignColors.dll",
+        "lib/net462/MaterialDesignColors.pdb",
+        "lib/net6.0/MaterialDesignColors.dll",
+        "lib/net6.0/MaterialDesignColors.pdb",
+        "lib/net7.0/MaterialDesignColors.dll",
+        "lib/net7.0/MaterialDesignColors.pdb",
+        "lib/netcoreapp3.1/MaterialDesignColors.dll",
+        "lib/netcoreapp3.1/MaterialDesignColors.pdb",
+        "materialdesigncolors.2.1.2.nupkg.sha512",
+        "materialdesigncolors.nuspec"
+      ]
+    },
+    "MaterialDesignThemes/4.8.0": {
+      "sha512": "rJDuWrSIqK+sA/RvZlJTlPF9Yp2YBdEZdiDtSHG/CEumkqJPMSewGga2pWF9gnRHkS5D7UWPaRRmT11Wb7F2Cw==",
+      "type": "package",
+      "path": "materialdesignthemes/4.8.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/MaterialDesignThemes.targets",
+        "build/Resources/Roboto/Roboto-Black.ttf",
+        "build/Resources/Roboto/Roboto-BlackItalic.ttf",
+        "build/Resources/Roboto/Roboto-Bold.ttf",
+        "build/Resources/Roboto/Roboto-BoldItalic.ttf",
+        "build/Resources/Roboto/Roboto-Italic.ttf",
+        "build/Resources/Roboto/Roboto-Light.ttf",
+        "build/Resources/Roboto/Roboto-LightItalic.ttf",
+        "build/Resources/Roboto/Roboto-Medium.ttf",
+        "build/Resources/Roboto/Roboto-MediumItalic.ttf",
+        "build/Resources/Roboto/Roboto-Regular.ttf",
+        "build/Resources/Roboto/Roboto-Thin.ttf",
+        "build/Resources/Roboto/Roboto-ThinItalic.ttf",
+        "build/Resources/Roboto/RobotoCondensed-Bold.ttf",
+        "build/Resources/Roboto/RobotoCondensed-BoldItalic.ttf",
+        "build/Resources/Roboto/RobotoCondensed-Italic.ttf",
+        "build/Resources/Roboto/RobotoCondensed-Light.ttf",
+        "build/Resources/Roboto/RobotoCondensed-LightItalic.ttf",
+        "build/Resources/Roboto/RobotoCondensed-Regular.ttf",
+        "images/MaterialDesignThemes.Icon.png",
+        "lib/net462/MaterialDesignThemes.Wpf.dll",
+        "lib/net462/MaterialDesignThemes.Wpf.pdb",
+        "lib/net462/MaterialDesignThemes.Wpf.xml",
+        "lib/net6.0/MaterialDesignThemes.Wpf.dll",
+        "lib/net6.0/MaterialDesignThemes.Wpf.pdb",
+        "lib/net6.0/MaterialDesignThemes.Wpf.xml",
+        "lib/net7.0/MaterialDesignThemes.Wpf.dll",
+        "lib/net7.0/MaterialDesignThemes.Wpf.pdb",
+        "lib/net7.0/MaterialDesignThemes.Wpf.xml",
+        "lib/netcoreapp3.1/MaterialDesignThemes.Wpf.dll",
+        "lib/netcoreapp3.1/MaterialDesignThemes.Wpf.pdb",
+        "lib/netcoreapp3.1/MaterialDesignThemes.Wpf.xml",
+        "materialdesignthemes.4.8.0.nupkg.sha512",
+        "materialdesignthemes.nuspec",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    },
+    "MaterialDesignThemes.MahApps/0.2.8": {
+      "sha512": "woUATwko6/W8MVJ0+kZnwQEwjjxOcOSGfoYMiBOfMbBE+iSBHHtdZdCXF78Zh66eexROMnBXXTJwUQYyf6zr2Q==",
+      "type": "package",
+      "path": "materialdesignthemes.mahapps/0.2.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "images/MaterialDesignThemes.MahApps.Icon.png",
+        "lib/net462/MaterialDesignThemes.MahApps.dll",
+        "lib/net462/MaterialDesignThemes.MahApps.pdb",
+        "lib/net6.0/MaterialDesignThemes.MahApps.dll",
+        "lib/net6.0/MaterialDesignThemes.MahApps.pdb",
+        "lib/net7.0/MaterialDesignThemes.MahApps.dll",
+        "lib/net7.0/MaterialDesignThemes.MahApps.pdb",
+        "lib/netcoreapp3.1/MaterialDesignThemes.MahApps.dll",
+        "lib/netcoreapp3.1/MaterialDesignThemes.MahApps.pdb",
+        "materialdesignthemes.mahapps.0.2.8.nupkg.sha512",
+        "materialdesignthemes.mahapps.nuspec"
+      ]
+    },
+    "Microsoft.Xaml.Behaviors.Wpf/1.1.39": {
+      "sha512": "8PZKqw9QOcu42xk8puY4P1+EXHL9YGOR9b7qhaYx5cILHul456H073tj99vyPcCt0W0781T9RwHqkx507ZyUpQ==",
+      "type": "package",
+      "path": "microsoft.xaml.behaviors.wpf/1.1.39",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -491,7 +809,7 @@
         "lib/netcoreapp3.1/Microsoft.Xaml.Behaviors.dll",
         "lib/netcoreapp3.1/Microsoft.Xaml.Behaviors.pdb",
         "lib/netcoreapp3.1/Microsoft.Xaml.Behaviors.xml",
-        "microsoft.xaml.behaviors.wpf.1.1.31.nupkg.sha512",
+        "microsoft.xaml.behaviors.wpf.1.1.39.nupkg.sha512",
         "microsoft.xaml.behaviors.wpf.nuspec",
         "tools/Install.ps1"
       ]
@@ -530,6 +848,7 @@
   "projectFileDependencyGroups": {
     ".NETFramework,Version=v4.8": [
       "LivetCask >= 4.0.1",
+      "MaterialDesignThemes.MahApps >= 0.2.8",
       "Newtonsoft.Json >= 13.0.2"
     ]
   },
@@ -575,6 +894,10 @@
           "LivetCask": {
             "target": "Package",
             "version": "[4.0.1, )"
+          },
+          "MaterialDesignThemes.MahApps": {
+            "target": "Package",
+            "version": "[0.2.8, )"
           },
           "Newtonsoft.Json": {
             "target": "Package",

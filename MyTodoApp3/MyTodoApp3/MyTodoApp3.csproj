@@ -10,7 +10,7 @@
   <ItemGroup>
     <PackageReference Include="LivetCask" Version="4.0.1" />
     <PackageReference Include="MaterialDesignThemes.MahApps" Version="0.2.8" />
-    <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
+    <PackageReference Include="ReactiveProperty" Version="9.0.0" />
   </ItemGroup>
 
 </Project>

@@ -26,3 +26,9 @@ C:\Users\bloomoon\source\repos\Todo\MyTodoApp2\MyTodoApp2\obj\Debug\net48\MyTodo
 C:\Users\bloomoon\source\repos\Todo\MyTodoApp2\MyTodoApp2\obj\Debug\net48\MyTodoApp2.exe
 C:\Users\bloomoon\source\repos\Todo\MyTodoApp2\MyTodoApp2\obj\Debug\net48\MyTodoApp2.pdb
 C:\Users\bloomoon\source\repos\Todo\MyTodoApp2\MyTodoApp2\bin\Debug\net48\Newtonsoft.Json.dll
+C:\Users\bloomoon\source\repos\Todo\MyTodoApp2\MyTodoApp2\bin\Debug\net48\ControlzEx.dll
+C:\Users\bloomoon\source\repos\Todo\MyTodoApp2\MyTodoApp2\bin\Debug\net48\MahApps.Metro.dll
+C:\Users\bloomoon\source\repos\Todo\MyTodoApp2\MyTodoApp2\bin\Debug\net48\MaterialDesignColors.dll
+C:\Users\bloomoon\source\repos\Todo\MyTodoApp2\MyTodoApp2\bin\Debug\net48\MaterialDesignThemes.Wpf.dll
+C:\Users\bloomoon\source\repos\Todo\MyTodoApp2\MyTodoApp2\bin\Debug\net48\MaterialDesignThemes.MahApps.dll
+C:\Users\bloomoon\source\repos\Todo\MyTodoApp2\MyTodoApp2\obj\Debug\net48\App.baml
