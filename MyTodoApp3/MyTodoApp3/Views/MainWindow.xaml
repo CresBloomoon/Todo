@@ -11,6 +11,10 @@
     Width="525"
     Height="350">
 
+    <Window.DataContext>
+        <vm:MainWindowViewModel/>
+    </Window.DataContext>
+
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
@@ -53,7 +57,7 @@
                 Background="Transparent"
                 ScrollViewer.HorizontalScrollBarVisibility="Disabled"
                 BorderThickness="0"
-                ItemsSource="{Binding Todo}">
+                ItemsSource="{Binding Todos}">
                 <ItemsControl.ItemTemplate>
                     <DataTemplate>
                         <StackPanel Margin="5 6 7 7" Width="50" Background="white">
@@ -65,9 +69,33 @@
                                     Direction="315"/>
                             </StackPanel.Effect>
                             <TextBlock Padding="20" Foreground="#808080" Height="175" Text="{Binding Title}"/>
+                            <CheckBox Padding="20" Foreground="#808080" Height="175" IsChecked="{Binding IsDone}"/>
+                            <TextBlock Padding="20" Foreground="#808080" Height="175" Text="{Binding CreationTime}"/>
                         </StackPanel>
                     </DataTemplate>
                 </ItemsControl.ItemTemplate>
+
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <WrapPanel Orientation="Horizontal" IsItemsHost="True"/>
+                    </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+
+                <ItemsControl.ItemContainerStyle>
+                    <Style TargetType="ListBoxItem">
+                        <Setter Property="OverridesDefaultStyle" Value="True"/>
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate TargetType="{x:Type ContentControl}">
+                                    <Border Background="{TemplateBinding Background}">
+                                        <ContentPresenter/>
+                                    </Border>
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                        <Setter Property="Focusable" Value="False"/>
+                    </Style>
+                </ItemsControl.ItemContainerStyle>
             </ListBox>
         </Grid>
     </Grid>

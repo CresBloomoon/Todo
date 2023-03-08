@@ -17,16 +17,6 @@ namespace MyTodoApp3.ViewModels
 {
     public class MainWindowViewModel : ViewModel
     {
-        public ObservableCollection<Todo> Todos { get; private set; }
-
-        public MainWindowViewModel()
-        {
-            Todos = new ObservableCollection<Todo>
-            {
-                new Todo() { Title = "test1", IsDone = false, CreationTime= DateTime.Now },
-                new Todo() { Title = "test2", IsDone = false, CreationTime= DateTime.Now },
-                new Todo() { Title = "test2", IsDone = false, CreationTime= DateTime.Now },
-            };
-        }
+        public ObservableCollection<Todo> Todos { get; private set; } = new ObservableCollection<Todo>();
     }
 }

@@ -1,4 +1,6 @@
-﻿using System;
+﻿using MyTodoApp3.Models;
+using MyTodoApp3.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -26,6 +28,37 @@ namespace MyTodoApp3.Views
         public MainWindow()
         {
             InitializeComponent();
+
+            var vm = new MainWindowViewModel();
+            vm.Todos.Add(new Todo()
+            {
+                Title = "test1",
+                IsDone = true,
+                CreationTime = DateTime.Now
+            });
+
+            vm.Todos.Add(new Todo()
+            {
+                Title = "test1",
+                IsDone = true,
+                CreationTime = DateTime.Now
+            });
+
+            vm.Todos.Add(new Todo()
+            {
+                Title = "test1",
+                IsDone = true,
+                CreationTime = DateTime.Now
+            });
+
+            vm.Todos.Add(new Todo()
+            {
+                Title = "test1",
+                IsDone = true,
+                CreationTime = DateTime.Now
+            });
+
+            this.DataContext = vm;
         }
     }
 }
