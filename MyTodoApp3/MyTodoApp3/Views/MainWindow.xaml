@@ -22,11 +22,12 @@
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition Height="1*"/>
-            <RowDefinition Height="5*"/>
+            <RowDefinition Height="56*"/>
+            <RowDefinition Height="233*"/>
+            <RowDefinition Height="45*"/>
         </Grid.RowDefinitions>
 
-        <Grid Grid.Column="1" Grid.Row="0">
+        <Grid Grid.Column="1" Grid.Row="0" Grid.ColumnSpan="2" Margin="0,0,87,233" Grid.RowSpan="2">
             <materialDesign:Card>
                 <Grid>
                     <Grid.ColumnDefinitions>
@@ -50,17 +51,19 @@
             </materialDesign:Card>
         </Grid>
 
-        <Grid Grid.Column="1" Grid.Row="1">
+        <Grid Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="2" Margin="0,0,87,0" Grid.RowSpan="1">
             <ListBox
                 Margin="10"
                 Padding="10"
                 Background="Transparent"
                 ScrollViewer.HorizontalScrollBarVisibility="Disabled"
                 BorderThickness="0"
-                ItemsSource="{Binding Todos}">
+                ItemsSource="{Binding Todos}"
+                x:Name="TodoListBox"
+                >
                 <ItemsControl.ItemTemplate>
                     <DataTemplate>
-                        <StackPanel Margin="5 6 7 7" Width="50" Background="white">
+                        <StackPanel Margin="2" Background="white" Orientation="Horizontal">
                             <StackPanel.Effect>
                                 <DropShadowEffect
                                     Color="#D7D7D7"
@@ -68,16 +71,16 @@
                                     ShadowDepth="3"
                                     Direction="315"/>
                             </StackPanel.Effect>
-                            <TextBlock Padding="20" Foreground="#808080" Height="175" Text="{Binding Title}"/>
-                            <CheckBox Padding="20" Foreground="#808080" Height="175" IsChecked="{Binding IsDone}"/>
-                            <TextBlock Padding="20" Foreground="#808080" Height="175" Text="{Binding CreationTime}"/>
+                            <TextBlock Padding="20" Foreground="#808080" Height="50" Width="200" Text="{Binding Title}"/>
+                            <CheckBox Padding="20" Foreground="#808080" Height="50" Width="50" IsChecked="{Binding IsDone}"/>
+                            <TextBlock Padding="20" Foreground="#808080" Height="50" Width="120" Text="{Binding CreationTime}"/>
                         </StackPanel>
                     </DataTemplate>
                 </ItemsControl.ItemTemplate>
 
                 <ItemsControl.ItemsPanel>
                     <ItemsPanelTemplate>
-                        <WrapPanel Orientation="Horizontal" IsItemsHost="True"/>
+                        <WrapPanel Orientation="Vertical" IsItemsHost="True"/>
                     </ItemsPanelTemplate>
                 </ItemsControl.ItemsPanel>
 
@@ -98,8 +101,15 @@
                 </ItemsControl.ItemContainerStyle>
             </ListBox>
         </Grid>
+
+        <Grid Grid.Column="1" Grid.Row="2" Margin="5">
+            <StackPanel Orientation="Horizontal">
+                <Button Content="削除" Click="DeleteButton_Click"/>
+                <Button Content="追加" Click="AddButton_Click"/>
+            </StackPanel>
+        </Grid>
     </Grid>
-    
+
 
     <!--<Grid Margin="8">
         <StackPanel>

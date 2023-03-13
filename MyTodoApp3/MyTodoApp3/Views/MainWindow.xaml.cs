@@ -44,21 +44,19 @@ namespace MyTodoApp3.Views
                 CreationTime = DateTime.Now
             });
 
-            vm.Todos.Add(new Todo()
-            {
-                Title = "test1",
-                IsDone = true,
-                CreationTime = DateTime.Now
-            });
-
-            vm.Todos.Add(new Todo()
-            {
-                Title = "test1",
-                IsDone = true,
-                CreationTime = DateTime.Now
-            });
-
             this.DataContext = vm;
+        }
+
+        /// <summary>
+        /// 項目を削除
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void DeleteButton_Click(object sender, RoutedEventArgs e)
+        {
+            //選択項目がない場合は処理をしない
+            if (TodoListBox.SelectedItem == null) return;
+            TodoListBox.Items.Remove(TodoListBox.SelectedItem);
         }
     }
 }
